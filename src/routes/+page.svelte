@@ -26,7 +26,7 @@
     <div class="mockup-code w-fit max-w-full mx-auto mt-1 shadow-lg">
         <pre data-prefix="$"><code>docker run -d \
          -v weights:/usr/src/app/weights -v datadb:/data/db/ \
-         -p 8008:8008 ghcr.io/nsarrazin/serge:latest
+         -p 8008:8008 ghcr.io/serge-chat/serge:latest
         </code></pre> 
         <pre data-prefix=">" class="text-success"><code>Done! Navigate to <a class="underline" href=http://localhost:8008>http://localhost:8008</a> to talk to Serge.</code></pre>
       </div>
